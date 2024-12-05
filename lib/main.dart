@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:qrexample/widgets/qr_reader_page.dart';
+import 'qr_reader_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,11 +10,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Ingreso QR',
-      theme: ThemeData(primarySwatch: Colors.blue),
-      home: const QRReaderPage(), // Pantalla inicial
+    return const MaterialApp(
+      title: 'QR Flutter OTP Demo',
+      home: MainScreen(),
     );
   }
 }
