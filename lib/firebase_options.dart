@@ -83,4 +83,5 @@ class DefaultFirebaseOptions {
     authDomain: 'qrexample-3cd3b.firebaseapp.com',
     storageBucket: 'qrexample-3cd3b.firebasestorage.app',
   );
+
 }
